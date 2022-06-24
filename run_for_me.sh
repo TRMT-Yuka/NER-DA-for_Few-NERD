@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-python3 token-classification/run_ner.py \
+python3 token-classification/run_ner_gpu0.py \
   --train_file supervised/train.txt \
   --validation_file supervised/dev.txt \
   --output_dir /model_output \

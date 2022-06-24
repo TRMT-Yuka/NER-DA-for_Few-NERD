@@ -1,0 +1,9 @@
+#/wandb/
+#/transformer/
+#/data_augment/
+#/data_original/
+#/data_pos_binary/
+/model_output/
+#/stanford-corenlp/
+#/save_from_gpu/
+#/trush/
