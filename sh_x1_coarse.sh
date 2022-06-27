@@ -14,8 +14,8 @@
 
 python3 token-classification/run_ner_gpu0.py \
   --model_name_or_path bert-base-uncased \
-  --train_file data_original/train.json \
-  --validation_file data_original/dev.json \
-  --output_dir /model_output/x1 \
+  --train_file data/coarse/train.json \
+  --validation_file data/coarse/dev.json \
+  --output_dir model/x1/coarse/ \
   --do_train \
   --do_eval
