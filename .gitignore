@@ -1,11 +1,6 @@
-#/wandb/
-#/transformer/
-#/data_augment/
-#/data_pos_binary/
-#/token-classification/
-#/supervised/
-#/stanford-corenlp/
-#/save_from_gpu/
-/trush/
 /data/
+/log/
 /model/
+/trush/
+/jre**
+/stanford-corenlp/
