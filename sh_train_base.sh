@@ -17,6 +17,8 @@
 
 python3 token-classification/run_ner_gpu$1.py \
   --model_name_or_path bert-base-uncased \
+  --num_train_epochs 10 \
+  --return_entity_level_metrics true \
   --train_file data/$2/train.json \
   --validation_file data/$2/dev.json \
   --output_dir model/$2 \
