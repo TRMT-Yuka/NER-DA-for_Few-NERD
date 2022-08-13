@@ -15,12 +15,22 @@
 # source run_train.sh 1 filenameのようにして使用
 
 
-python3 token-classification/run_ner.py \
+# python3 token-classification/run_ner_gpu0.py \
+#   --model_name_or_path bert-base-uncased \
+#   --num_train_epochs 10 \
+#   --return_entity_level_metrics true \
+#   --train_file data/$1/train.json \
+#   --validation_file data/$1/dev.json \
+#   --output_dir model/bacth10/$1 \
+#   --do_train \
+#   --do_eval
+
+python3 token-classification/run_ner_gpu0.py \
   --model_name_or_path bert-base-uncased \
   --num_train_epochs 10 \
   --return_entity_level_metrics true \
-  --train_file data/$1/train.json \
-  --validation_file data/$1/dev.json \
-  --output_dir model/bacth10/$1 \
+  --train_file data/TreePos_BI_x2/train.json \
+  --validation_file data/TreePos_BI_x2/dev.json \
+  --output_dir model/bacth10/TreePos_BI_x2 \
   --do_train \
   --do_eval
