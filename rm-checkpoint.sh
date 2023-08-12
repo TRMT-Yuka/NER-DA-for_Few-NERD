@@ -1,0 +1,1 @@
+rm -r model/2-167th/{f_small,Simple_{ALL,BI,O}_small,TreePos_{ALL,BI,O}_small}/{0,1,2,3,4,5,6,7,8,9}/checkpoint-**
