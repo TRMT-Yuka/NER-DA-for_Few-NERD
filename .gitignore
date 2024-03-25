@@ -2,6 +2,7 @@
 /log/
 /model/
 /trush/
+/result/
 /jre**
 /core-python**
 /stanford-corenlp/
