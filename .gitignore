@@ -1,7 +1,7 @@
 /data/
 /log/
 /model/
-/trush/
+/ignore/
 /jre**
 /core-python**
 /stanford-corenlp/
